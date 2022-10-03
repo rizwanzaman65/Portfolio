@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RizZ</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- external css link  -->
+  <link rel="stylesheet" href="Link/style.css">
+
+  <!-- animation link  -->
+  <link href="Link/animationlink.css" rel="stylesheet">
+
+  <!-- arrow link  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="Link/sliderlink.css"/>
+
+
+  <script src="Link/script.js"></script>
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+    }
+    /* Slider css  */
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+
+   
+
+    @media(max-width:870px) {
+      .content h2 {
+        font-size: 40px;
+      }
+    }
+
+
+    @media(max-width:700px) {
+      .content h2 {
+        font-size: 30px;
+        padding-left: 60px;
+      }
+    }
+
+    @media(max-width:767px) {
+      .content h2 {
+    padding-right: 90px;
+      }
+    }
+
+
+    @media(max-width:1000px) {
+      .text1 {
+        font-size: 100px;
+      }
+    }
+
+    @media(max-width:870px) {
+      .text1 {
+        font-size: 70px;
+      }
+
+      .bgimage1 {
+        height: 400px;
+      }
+    }
+
+    
+    @media(max-width:700px) {
+      .text1 {
+        font-size: 50px;
+        padding-left: 60px;
+      }
+      .bgimage1 {
+        height: 370px;
+      }
+#btn1{
+  margin-left: 60px;
+width: 110px;
+font-size: 14px;
+}
+
+#btn1:hover{
+    width: 115px;
+    padding-right: 30px;
+}
+    }
+
+
+    @media(max-width:520px) {
+      .text1 {
+        font-size: 40px;
+      }
+
+      .bgimage1 {
+        height: 330px;
+      }
+    }
+
+@media(max-width:500px)
+{
+.text1
+  {
+padding-left: 40px;
+  }
+
+  #btn1{
+  margin-left: 40px;
+  width: 100px;
+font-size: 12px;
+}
+#btn1:hover{
+    width: 105px;
+    padding-right: 25px;
+}
+
+}
+    @media(max-width:421px) {
+      .text1 {
+        font-size: 30px;
+      }
+
+      .bgimage1 {
+        height: 300px;
+      }
+    }
+
+    @media(max-width:360px)
+    {
+      .bgimage1
+      {
+        max-width: 100vw;
+        
+      }
+    }
+
+    @media(max-width:1000px) {
+     hr {
+       display: none;
+      }
+    }
+
+    @media(max-width:991px) {
+     #rizimg {
+      margin-top: 40px;
+      }
+    }
+
+
+    @media(max-width:767px) {
+     #rizimg {
+      margin-top: 90px;
+      }
+    }
+
+
+    @media(max-width:575px) {
+     #rizimg {
+   height: 200px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    @media(max-width:467px) {
+     #rizimg {
+   height: 170px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    @media(max-width:410px) {
+     #rizimg {
+   height: 150px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    @media(max-width:352px) {
+     #rizimg {
+   height: 140px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+
+    @media(max-width:320px) {
+     #rizimg {
+   height: 130px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    
+    @media(max-width:285px) {
+     #rizimg {
+   height: 110px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    @media(max-width:249px) {
+     #rizimg {
+   height: 100px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+
+
+    @media(max-width:221px) {
+     #rizimg {
+   height: 90px;
+   width: 40%;
+   margin-left: 30%;
+   margin-top: -5%;
+      }
+    }
+
+    
+
+    @media(max-width:500px) {
+     #Mheadings {
+ font-size: 22px;
+      }
+    }
+
+    @media(max-width:500px) {
+     #frontendweb {
+ font-size: 17px;
+      }
+    }
+
+ 
+    
+
+    
+  </style>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">   <div class="main">
+        <div class="content">
+            <h2>Rizwan</h2>
+            <h2>Rizwan</h2>
+        </div>
+    </div></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about1" id="menu">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service1" id="menu">SERVICE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="images/Rizwan cv.pdf" id="menu">RESUME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#projects1" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              PROJECTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="menu1">
+              <li><a class="dropdown-item" href="https://rizwanzaman65.github.io/Alpine-Ascents/">Alpine Ascents</a></li>
+              <li><a class="dropdown-item" href="https://rizwanzaman65.github.io/SAYA/">SAYA</a></li>
+              <li><a class="dropdown-item" href="https://rizwanzaman65.github.io/The-Soap-Bar/">The Soap Bar Shop</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="bgimage1" style="background-image: url(images/web-1012467_640.jpg);">
+
+    <div class="paddingleft1">
+      <p class="text1">I'm a <br>
+        <span class="remover1"> </span>
+      </p>
+
+      <a href="#about1"><button type="button" class="btn btn-info" id="btn1">About Me <i class="fas fa-arrow-right"
+            style="margin-top: 5px; margin-left:5px;"></i></button></a>
+    </div>
+  </div>
+
+  <script>
+
+    var typed = new Typed('.remover1',
+      {
+        strings: ['','Web Developer','Graphic Designer', 'Web Designer',],
+        typeSpeed: 60,
+        backSpeed: 50,
+        loop: true,
+      }
+    )
+  </script>
+
+  <br>
+
+
+  <section id="about1">
+    <center>
+      <h1 data-aos="zoom-in-up" id="Mheadings">ABOUT</h1>
+      <hr width="10%" data-aos="zoom-in-up">
+    </center>
+
+    <div class="container">
+      <center>
+
+        <p data-aos="zoom-in-up">Seeking a position in a dynamic and well reputed organization
+          where an excellent organizing and team building
+          skills can be utilized to improve the company’s growth and in return to enhance my proficiency.</p>
+      </center>
+    </div>
+
+    <div class="container">
+      <h4 id="frontendweb" data-aos="zoom-in-up">Frontened Web developer</h4>
+      <center>
+        <p data-aos="zoom-in-up">I am a professional frontend web developer. I have experience
+          in web-specific languages like HTML, CSS,
+          Bootstrap, JavaScript, Jquery, and mediaquery to create a responsive website. </p>
+      </center>
+    </div>
+
+    <br>
+    <div class="container" id="rizz1" data-aos="zoom-in-up">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img id="rizimg" src="images/riz.jpg" class="img-fluid" width="100%" height="350px">
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-sm-5" data-aos="zoom-in-up">
+          <br>
+          <b>Name</b> Muhammad Rizwan
+          <br> <br>
+          <b>Degree</b> Software Engineering Diploma (Continue...)
+          <br> <br>
+          <b>Email</b> rizwan2203e@aptechgdn.net
+          <br> <br>
+          <b>Address</b> Garden west, Karachi, Pakistan
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4" data-aos="zoom-in-up">
+          <br>
+          <b>Father's Name</b> Muhammad Zaman
+          <br> <br>
+          <b>Profile</b> Frontend Web Developer
+          <br> <br>
+          <b>Date of Birth</b> 05 July 1996
+          <br> <br>
+          <b>Phone</b> +92 333 6623823
+          <br> <br>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <br>
+
+  <center>
+    <h1 data-aos="zoom-in-up" id="Mheadings">SKILLS</h1>
+    <hr width="9%" data-aos="zoom-in-up">
+  </center>
+
+  <div class="container" data-aos="zoom-in-up">
+
+    <b>HTML5</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" id="progressbartext" style="padding-left: 80%; width: 90%">90%</div>
+    </div>
+
+    <b>CSS</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="padding-left: 80%; width: 90%">90%</div>
+    </div>
+
+    <b>JAVASCRIPT</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="padding-left: 60%; width: 70%">70%</div>
+    </div>
+
+    <b>Bootstrap 5</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="padding-left: 80%; width: 90%">90%</div>
+    </div>
+
+
+    <b>JQUERY</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="padding-left: 60%; width: 70%">70%</div>
+    </div>
+
+    <b>MEDIA QUERY</b>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="padding-left: 70%; width: 80%" >80%</div>
+    </div>
+  </div>
+
+  <br>
+
+  <section id="service1">
+
+    <center>
+      <h1 data-aos="zoom-in-up" id="Mheadings">SERVICES </h1>
+      <hr width="13%" data-aos="zoom-in-up">
+    </center>
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper" data-aos="zoom-in-up">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <img src="images/1.jpg" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 40%;">WEB DESIGNER</h6>
+
+            <p data-aos="zoom-in-up">I will create modern websites by using Html5, css and
+              JavaScript</p>
+          </center>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/2.jpg" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 60%;">RESPOSIVE WEBSITES</h6>
+            <p data-aos="zoom-in-up">I will create responsive websites by using Bootstrap,
+              Jquery and mediaquery</p>
+          </center>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/3.jpg" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 60%;">COLOR COMBINATION</h6>
+            <p data-aos="zoom-in-up">I will create awesome color combination websites </p>
+          </center>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/ui ux.png" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 40%;">UI UX Designer</h6>
+            <p data-aos="zoom-in-up">I will create professional who identifies new
+              opportunities to create better user experiences.
+            </p>
+          </center>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/seo.jpg" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 60%;">SEO</h6>
+            <p data-aos="zoom-in-up">Develop optimization strategies that increase the
+              company's website search engine results rankings.
+            </p>
+          </center>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/4.png" />
+          <br>
+          <center>
+            <h6 data-aos="zoom-in-up" id="menu01" style="width: 60%;">GRAPHIC DESIGNER</h6>
+            <p data-aos="zoom-in-up">I will make logo, poster, flyer, banner, business card etc
+            </p>
+          </center>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 60,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+  </section>
+
+  <br>
+
+  <center>
+    <h1 data-aos="zoom-in-up" id="Mheadings">PROJECTS </h1>
+    <hr width="13%" data-aos="zoom-in-up">
+  </center>
+
+  <div class="main1" data-aos="zoom-in-up">
+
+    <div class="container1">
+      
+      <div class="card1">
+        <div class="imgBX1">
+          <img src="images/alpinee.png">
+          <br><br>
+
+        </div>
+        <div class="content1">
+          <h6>Alpine Ascents</h6>
+          <p>Html5 css JavaScript Bootstrap5 jQuery Media Query
+          </p>
+
+          <a href="https://rizwanzaman65.github.io/Alpine-Ascents/"><button type="button" class="btn btn-info" id="cardbtn">Visit <i
+                class="fas fa-arrow-right" style="margin-top: 5px; margin-left:5px;"></i></button></a>
+
+
+        </div>
+      </div>
+
+
+      <div class="card1">
+        <div class="imgBX1">
+          <img src="images/sayaaa.png">
+        </div>
+        <div class="content1">
+          <h6>SAYA</h6>
+          <p>Html5 CSS JavaScript
+          </p>
+
+          <a href="https://rizwanzaman65.github.io/SAYA/"><button type="button" class="btn btn-info" id="cardbtn">Visit <i
+                class="fas fa-arrow-right" style="margin-top: 5px; margin-left:5px;"></i></button></a>
+
+        </div>
+      </div>
+
+
+      <div class="card1">
+
+        <div class="imgBX1">
+          <img src="images/soap.png">
+        </div>
+        <div class="content1">
+          <h6>The Soap Bar</h6>
+          <p>Html5 CSS JavaScript
+          </p>
+
+          <a href="https://rizwanzaman65.github.io/The-Soap-Bar/"><button type="button" class="btn btn-info" id="cardbtn">Visit
+              <i class="fas fa-arrow-right" style="margin-top: 5px; margin-left:5px;"></i></button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <br>
+
+    <div class="footer">
+      <br>
+      <div class="parent">
+        <ol>
+       <a href="https://www.facebook.com/" class="nav-link" data-aos="zoom-in-up">   <li style="--clr:#3b5998;"><i class="fa fa-facebook-official" aria-hidden="true"></i></li> </a>
+       <a href="https://twitter.com/i/flow/login" class="nav-link" data-aos="zoom-in-up">      <li style="--clr:#1da1f2;"><i class="fa fa-twitter" aria-hidden="true"></i></li> </a> 
+        <a href="https://www.youtube.com/channel/UCaBFzSCz8y-9-fVSVXcXm3w/videos" class="nav-link" data-aos="zoom-in-up">       <li style="--clr:#ff0000;"><i class="fa fa-youtube-play" aria-hidden="true"></i></li> </a>
+        </ol>
+      </div>
+  
+
+
+    <center>
+      ©Copyright. All Rights Reserved
+      <br>
+      <b>Designed by RizZ</b>
+    </center>
+    <br>
+  </div>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+
+  <!-- animation link  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
